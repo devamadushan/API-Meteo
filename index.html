@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<style>
+.table{
+    margin: auto;
+    width: 90%;
+    padding: 2%;
+    
+   
+}
+.table tr{
+    text-align: center;
+   
+}
+.table th{
+
+    font-size: large;
+}
+.table td{
+   
+}
+</style>
+<body>
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title fs-5" id="staticBackdropLabel">
+                
+              </h1>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <table class="table" id="previsionTable">
+                <tr>
+                    <th>day 1</th>
+                    <th>day 2</th>
+                    <th>day 3</th>
+                    <th>day 4</th>
+                </tr>
+              </table>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    <div class="container">
+        <label for="recherch">Recherche une ville:</label>
+        
+        <input id="recherche" class="form-control" type="text">
+        <br><br>
+        <table class="table" id="meteoActuelle">
+            <tr>
+                <th>Ville</th>
+                <th>Date</th>
+                <th>Temps</th>
+                <th>Température</th>
+                <th>Température min</th>
+                <th>Température max</th>
+
+            </tr>
+            
+           
+
+        </table>
+    </div>
+   
+</body>
+<script src="script.js"></script>
+</html>
