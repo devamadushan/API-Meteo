@@ -77,7 +77,7 @@ function afficherMeteo(uneVille){
                <td style="text-align:center"> ${uneVille['fcst_day_0'].tmax}°</td> 
             <td><img src="${uneVille['fcst_day_0'].icon}" alt="">  </td>
             <td><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop" onclick="afficherPrevision('${uneVille['city_info'].name}')">
-            prevision
+            prévision
           </button>
         </td>
      </tr>
